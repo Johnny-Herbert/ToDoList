@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/home.css">
+    <title>To do list</title>
+</head>
+<body>
+    <form action="/list" method="POST" id="msg-form">
+        <div>
+          Item: <input id="input-item" type="text" name="item">
+        </div>
+        <input id="btn-submit" type="submit" value="Enviar">
+      </form>
+      <br><br>
+      <h1>To do list</h1>
+      <div id="itens"></div>
+      <script src="/js/home-front.js"></script>
+</body>
+</html>

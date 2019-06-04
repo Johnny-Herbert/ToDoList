@@ -1,0 +1,19 @@
+body
+{
+    background-color: aquamarine;
+}
+#msg-form{
+    display: flex;
+    align-items: center;
+}
+#input-item
+{
+    border-radius: 10px;
+    margin-right: 5px;
+}
+#btn-submit
+{
+    background-color: brown;
+    border-radius: 5px;
+    color: white;
+}
